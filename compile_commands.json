@@ -1,0 +1,22 @@
+[
+  {
+    "file": "src/main.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-DDEBUG",
+      "-Wall",
+      "-I./include",
+	  "-I/usr/local/include/boost",
+      "-I/usr/local/include/mongocxx/v_noabi",
+      "-I/usr/local/include/bsoncxx/v_noabi",
+      "-std=c++17",
+      "-o",
+      ".obj/main.o",
+      "-c",
+      "src/main.cpp"
+    ],
+    "directory": "/home/ThatChemical/Dev/Projects/UCS/Server/Application",
+    "output": ".obj/main.o"
+  }
+]
