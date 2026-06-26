@@ -9,7 +9,7 @@ endif
 #Add All project names, Project name should be the same as the Directory it is in
 # keep adding additional project names after 
 PROJECTS := Application 
-.PHONY: all clean $(PROJECTS) uninstall install init
+.PHONY: all clean $(PROJECTS) uninstall install init 
 
 all: $(PROJECTS)
 

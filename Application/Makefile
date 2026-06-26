@@ -33,7 +33,7 @@ DEP = $(OBJ:$(OBJDIR)/%.o=$(DEPDIR)/%.d)
 
 # Compiler and Compiler options
 CXX = g++
-CXXFLAGS += -Wall -I./include -I /usr/local/include/boost -std=c++17 $(shell pkg-config --cflags libmongocxx-static)
+CXXFLAGS += -Wall -I./include -I /usr/local/include/boost -std=c++17 -DCROW_USE_BOOST $(shell pkg-config --cflags libmongocxx-static)
 LDFLAGS = $(shell pkg-config --libs libmongocxx-static)
 
 # pre-compiled headers options
